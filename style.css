@@ -112,6 +112,31 @@ main{
 }
 /* Welcome section css End here */
 
+/* Place section css start here */
+#place {
+    padding: 100px;
+    text-align: center;
+    margin: 70px 0;
+    background: linear-gradient(181deg, #ff000021, transparent);
+    border-radius: 20px 20px 0px 0px;
+}
+.place-sub-heading {
+    font-size: 32px;
+    margin: 10px;
+    font-weight: 600;
+}
+.place-btn {
+    background: #FF0000;
+    border: none;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: #ffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 55px;
+    border-radius: 10px;
+}
+/* Place section css start here */
 /* Main css end here */
 
 /* Responsive Css Start Here */
