@@ -136,7 +136,9 @@ main{
     margin-top: 55px;
     border-radius: 10px;
 }
-/* Place section css start here */
+/* Place section css end here */
+/* Offer section css start here */
+
 #offer {
    margin: 70px 0;
 }
@@ -210,6 +212,8 @@ main{
     font-size: 48px;
     margin-bottom: 20px;
 }
+/* Offer section css end here */
+
 /* Main css end here */
 
 /* Responsive Css Start Here */
