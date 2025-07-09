@@ -137,11 +137,89 @@ main{
     border-radius: 10px;
 }
 /* Place section css start here */
+#offer {
+   margin: 70px 0;
+}
+.offer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.offer-content{
+    width: 33.33%;
+}
+.offer-image{
+    width: 33.33%;
+    text-align: center;
+}
+.offer-year{
+    width: 33.33%;
+    padding: 10px 90px;
+}
+
+.offer-sub-heading.main-color {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.offer-main-heading.heading {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.offer-text {
+    width: 70%;
+    font-size: 18px;
+    color: #07021187;
+}
+.offer-sub-heading.main-color {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.offer-main-heading.heading {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.offer-text {
+    width: 70%;
+    font-size: 18px;
+    color: #07021187;
+    margin-bottom: 20px;
+}
+
+.offer-image {
+    padding: 50px;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+}
+
+.offer-image img {
+    width: 100%;
+}
+.offer-year-image{
+   margin-top: 10px;
+}
+.year-heading.main-color {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
 /* Main css end here */
 
 /* Responsive Css Start Here */
 /* Default styles (for desktop) */
-
+@media (max-width: 1024px) {
+    .offer-year {
+    width: 33.33%;
+    padding: 10px 30px;
+}
+}
 
 /* Media Query for screens 768px or less (e.g. tablets & phones) */
 @media (max-width: 768px) {
@@ -203,6 +281,45 @@ main{
     color: white;
     font-size: 18px;
     font-weight: 600;
+}
+#place {
+    padding: 15px;
+}
+.place-sub-heading {
+    font-size: 18px;
+}
+.place-btn {
+    background: #FF0000;
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+}
+/* Offer Responsive start here */
+.offer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.offer-content{
+    width: 100%;
+}
+.offer-image{
+   width: 100%;
+}
+.offer-year{
+   width: 100%;
+}
+.offer-main-heading.heading {
+    font-size: 40px;
+}
+.offer-text {
+    width: 100%;
+}
+.offer-image {
+    padding: 20px;
+    border: 10px solid #FF0000;
+    border-radius: 50%;
 }
 }
 
