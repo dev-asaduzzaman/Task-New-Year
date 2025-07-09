@@ -10,6 +10,9 @@ body{
   font-optical-sizing: auto;
   font-style: normal;
 }
+.main-color{
+    color: #FF0000;
+}
 /* Banner part css start here */
 .heading {
   font-family: "Merriweather", serif;
@@ -45,6 +48,36 @@ header{
     margin-top: 10px;
 }
 /* Banner part css end here */
+/* Main css start here */
+main{
+    margin: 100px 140px;
+    text-align: center;
+}
+
+.discout{
+    display: block;
+    margin: 0 auto;
+}
+.discount-heading{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.discount-sub-heading {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.categori-heading {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.category-image{
+    width: 50%;
+    height: auto;
+}
+/* Main css end here */
 /* Responsive Css Start Here */
 /* Default styles (for desktop) */
 
@@ -66,6 +99,27 @@ header{
     text-align: center;
     margin-top: 10px;
 }
+main{
+    margin: 50px 80px;
+    text-align: center;
+}
+.discount-heading {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.discount-sub-heading {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.categori-heading {
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.category-image{
+    width: 100% ;
+    height: auto ;
+}
 }
 
 /* Media Query for screens 480px or less (e.g. smartphones) */
@@ -86,6 +140,29 @@ header{
     text-align: center;
     margin-top: 10px;
 }
+
+main{
+    margin: 40px 60px ;
+    text-align: center;
+}
+.discount-heading {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.discount-sub-heading {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.categori-heading {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.category-image{
+    width: 100%;
+    height: auto;
+}
 }
 
 /* Responsive Css End Here */
+
