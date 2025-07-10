@@ -213,7 +213,40 @@ main{
     margin-bottom: 20px;
 }
 /* Offer section css end here */
+/* Sell section css start here */
+#sell {
+    padding: 100px 0;
+}
 
+.sell-banner-content {
+    text-align: center;
+}
+
+.sell-sub-heading {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sell-main-heading.heading {
+    font-size: 54px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.sell-text {
+    font-size: 18px;
+    color: #07021187;
+    width: 60%;
+    margin: 0 auto;
+}
+.sell-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(./images/Rectangle\ 2.png);
+}
+/* Sell section css end here */
 /* Main css end here */
 
 /* Responsive Css Start Here */
